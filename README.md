@@ -8,6 +8,7 @@ Here, I want to introduce following changes:
   - 10-20K NTC (as original W1209)
   - DS18B20
   - TMP36 and alike
+  - LMx35 and alike
 - add a capacitor for RESET line of to prevent self-restart\
   as reported here: [1](https://sampawno.ru/viewtopic.php?f=120&t=13251)
 
