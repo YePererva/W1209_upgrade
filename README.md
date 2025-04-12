@@ -11,6 +11,8 @@ Here, I want to introduce following changes:
   - LMx35 and alike
 - add a capacitor for RESET line of to prevent self-restart\
   as reported here: [1](https://sampawno.ru/viewtopic.php?f=120&t=13251)
+- Replace some custom sized SRA-12VDC-AL relay with more generiac. Like OMRON or something
+
 
 # Remarks
 - These thermostats were designed with [STM8S103F3P6](https://www.st.com/resource/en/datasheet/stm8s103f2.pdf) microcontrollers, but there are variations with [Nuvoton N76003AT20](https://direct.nuvoton.com/en/n76e003at20) MCU. The spare microcontroller can be salvaged from cheap STM8S103F3P6 devboards \

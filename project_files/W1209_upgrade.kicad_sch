@@ -3891,7 +3891,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "If using 10K thermistor:\n- Solder capacitor, use 20K pull-up resistor \n\nIf using DS18B20:\n- Use 4K7 as pull-up resistor instead of 20K\n- DON'T solder capacitor\n\nIf using TMP36 / LM75:\n- Capacitor is optional\n- DON'T solder pull-up resistor\n\nIf using LMx35:\n- Replace the 20K with recired to provid the needed current"
+	(text "If using 10K thermistor:\n- Solder capacitor, use 20K pull-up resistor \n\nIf using DS18B20:\n- Use 4K7 as pull-up resistor instead of 20K\n- DON'T solder capacitor\n\nIf using TMP36 / LM75:\n- Capacitor is optional\n- DON'T solder pull-up resistor\n\nIf using LMx35:\n- Replace the 20K with recired to provide the needed current"
 		(exclude_from_sim no)
 		(at 201.93 148.59 0)
 		(effects
