@@ -4218,7 +4218,7 @@
 		(uuid "8fec5e55-1656-4a6e-a5db-9ace9e7fccd3")
 	)
 	(no_connect
-		(at 33.02 74.93)
+		(at 33.02 90.17)
 		(uuid "b552b7b7-62da-49a2-9914-225feae929d0")
 	)
 	(no_connect
@@ -4261,7 +4261,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 91.44) (xy 30.48 90.17)
+			(xy 30.48 73.66) (xy 30.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 73.66) (xy 27.94 73.66)
+			(xy 25.4 91.44) (xy 27.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4351,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 91.44) (xy 30.48 91.44)
+			(xy 27.94 73.66) (xy 30.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4801,7 +4801,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 73.66) (xy 27.94 74.93)
+			(xy 27.94 91.44) (xy 27.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5649,7 +5649,7 @@
 	)
 	(global_label "K1"
 		(shape input)
-		(at 27.94 91.44 180)
+		(at 27.94 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5659,7 +5659,7 @@
 		)
 		(uuid "ce1ab4ca-578b-43d1-acfa-ea28bbc25f36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.3802 91.44 0)
+			(at 22.3802 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +5745,7 @@
 	)
 	(global_label "K0"
 		(shape input)
-		(at 25.4 73.66 180)
+		(at 25.4 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5755,7 +5755,7 @@
 		)
 		(uuid "e3ddd140-b614-4aeb-9ccd-bfc1fcd0d633")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8402 73.66 0)
+			(at 19.8402 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10189,8 +10189,7 @@
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 35.56 82.55 0)
-		(mirror y)
+		(at 35.56 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10200,7 +10199,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fe63e7b")
 		(property "Reference" "K1"
-			(at 46.482 81.3816 0)
+			(at 46.482 83.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10211,7 +10210,7 @@
 			)
 		)
 		(property "Value" "SRA-12VDC-AL"
-			(at 46.482 83.693 0)
+			(at 46.482 81.407 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10222,7 +10221,7 @@
 			)
 		)
 		(property "Footprint" "Display_Segmented:SRA"
-			(at 24.13 83.82 0)
+			(at 24.13 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
